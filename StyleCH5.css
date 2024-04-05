@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('bg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.center-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; /* Menengahkan konten */
+}
+
+video, audio {
+    display: inline-block; /* Mengatur agar video dan audio tampil di dalam satu baris */
+    vertical-align: middle; /* Mengatur agar video dan audio berada di tengah vertikal */
+    margin-bottom: 20px; /* Jarak antara video/audio dengan elemen lain */
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    border: 2px solid #121010; /* border kotak */
+    border-radius: 10px; /* sudut bulat pada kotak */
+    padding: 20px; /* ruang di dalam kotak */
+    box-shadow: 0 0 10px rgba(10, 8, 8, 0.1); /* bayangan kotak */
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0f0e0e;
+}
+
+h2 {
+    color: #0f0f0f;
+    text-decoration: underline;
+    text-decoration-color: #070606;
+}
+
+picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* sudut bulat pada gambar */
+}
